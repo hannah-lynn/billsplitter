@@ -1,0 +1,59 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Mukta', sans-serif;
+}
+
+.container {
+  background: url(background.jpg) no-repeat center center fixed;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.box {
+  padding: 20vh 20vw;
+}
+
+#title {
+  font-size: 3vmax;
+  font-weight: bold;
+  padding-bottom: 1vh;
+}
+
+.button {
+  padding: 1vh 1vw;
+  font-size: 2vmax;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: teal;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {
+  background-color: teal;
+}
+
+.button:active {
+  background-color: darkolivegreen;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.padding {
+  padding-top: 1vh;
+}
+
+#tot {
+  font-size: 3vmax;
+}
