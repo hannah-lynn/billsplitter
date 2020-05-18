@@ -1,4 +1,18 @@
-let btn = document.getElementById('btn');
+function empty() {
+  let billAmt = document.getElementById('amount').value;
+  let people = document.getElementById('people').value;
+  if (billAmt === '') {
+    alert('Enter bill amount');
+  } else if (people === '') {
+    alert('Enter number of people');
+  }
+}
+
+function checkEmpty() {
+  let btn = document.getElementById('btn');
+  btn.addEventListener('click', empty);
+}
+checkEmpty();
 
 function calculate() {
   let percent = document.getElementById('serviceSelect').value;
@@ -10,13 +24,3 @@ function calculate() {
   let amt = document.getElementById('amt');
   amt.innerText = round;
 }
-
-// function empty() {
-//   if (people === '') {
-//     alert('Enter number of people');
-//   } else if (billAmt === '') {
-//     alert('Enter bill amount');
-//   }
-// }
-
-// btn.addEventListener('click', empty);
