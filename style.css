@@ -54,6 +54,10 @@ body {
   padding-top: 1vh;
 }
 
+.padding2 {
+  padding-top: 2vh;
+}
+
 #tot {
   font-size: 3vmax;
 }

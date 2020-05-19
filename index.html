@@ -34,9 +34,11 @@
           <span id="q2">How was your service?</span>
           <br />
           <select name="service" id="serviceSelect">
-            <option value="1.05">Awful - 5%</option>
-            <option value="1.15">OK - 15%</option>
-            <option value="1.25">Great - 25%</option>
+            <option value="1.00">0%</option>
+            <option value="1.05">5%</option>
+            <option value="1.10">10%</option>
+            <option value="1.15">15%</option>
+            <option value="1.20">20%</option>
           </select>
           <br />
           <span id="q3">How many people are splitting the bill?</span>
@@ -46,6 +48,10 @@
           <div class="padding"></div>
           <button id="btn" class="button" onclick="calculate()">
             Calculate
+          </button>
+          <div class="padding2"></div>
+          <button id="rst-btn" class="button">
+            Reset
           </button>
           <div class="padding"></div>
           <div id="tot">

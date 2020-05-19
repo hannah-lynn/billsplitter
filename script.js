@@ -24,3 +24,9 @@ function calculate() {
   let amt = document.getElementById('amt');
   amt.innerText = round;
 }
+
+document.getElementById('rst-btn').onclick = function () {
+  document.getElementById('people').value = '';
+  document.getElementById('amount').value = '';
+  document.getElementById('amt').innerText = '0.00';
+};
